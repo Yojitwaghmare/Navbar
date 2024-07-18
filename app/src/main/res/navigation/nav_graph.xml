@@ -3,31 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragment1">
+    app:startDestination="@id/fragmentHome">
 
     <fragment
-        android:id="@+id/fragment1"
+        android:id="@+id/fragmentHome"
         android:name="com.example.fragments.FragmentHome"
         android:label="fragment_1"
         tools:layout="@layout/fragment_home" >
 
     </fragment>
     <fragment
-        android:id="@+id/fragment2"
+        android:id="@+id/fragmentcart"
         android:name="com.example.fragments.Fragmentcart"
         android:label="fragment_2"
         tools:layout="@layout/fragment_cart" >
 
     </fragment>
     <fragment
-        android:id="@+id/fragment3"
+        android:id="@+id/fragmentoffer"
         android:name="com.example.fragments.Fragmentoffer"
         android:label="fragment_3"
         tools:layout="@layout/fragment_offer" >
 
     </fragment>
     <fragment
-        android:id="@+id/fragment4"
+        android:id="@+id/fragmentprofile"
         android:name="com.example.fragments.Fragmentprofile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
